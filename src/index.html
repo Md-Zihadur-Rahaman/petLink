@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>My pet Link</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://db.onlinewebfonts.com/c/e25ed0fa39c44d127ab5ab3e362d8af1?family=Cooper+Lt+BT+Light"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/petLink.png" />
+  </head>
+  <body>
+    <!-- container Section -->
+    <main class="max-w-7xl mx-auto w-full flex gap-20 font-poppins">
+      <!-- left section -->
+      <aside
+        class="hidden lg:block w-6/12 bg-gradient-to-b from-mixGreen to-mixGreen border-2"
+      >
+        <div class="mt-16">
+          <div class="pl-16 pr-5 flex flex-col gap-8">
+            <a href="#" class="flex flex-row items-center">
+              <img src="images/petLink.png" alt="" class="w-16 h-12" />
+              <p class="text-3xl font-medium text-white">myPetLink</p>
+            </a>
+            <h1 class="text-5xl text-lightBrown font-cooperLtBt">
+              Join us and save lives!
+            </h1>
+            <p class="text-white">
+              myPetLink is a platform for both pet owners and <br />
+              veterinarians to access life-saving blood donations for <br />
+              their four legged friends .
+            </p>
+          </div>
+          <figure>
+            <img src="images/pet.jpg" alt="" class="w-full h-full" />
+          </figure>
+        </div>
+      </aside>
+      <!-- right section -->
+      <section
+        class="w-full lg:w-6/12 mx-6 lg:mx-0 my-10 lg:my-0 lg:mt-16 flex flex-col gap-8"
+      >
+        <!-- petLink for mobile nav -->
+        <div class="flex items-center justify-center pt-10 lg:hidden">
+          <a href="#" class="flex flex-row items-center">
+            <img
+              src="images/petFootPrint.png"
+              alt=""
+              class="w-12 h-8 lg:w-16 lg:h-12"
+            />
+            <p
+              class="text-2xl lg:text-4xl font-medium font-poppins text-mixGreen"
+            >
+              myPetLink
+            </p>
+          </a>
+        </div>
+
+        <!-- sign in section -->
+        <div class="flex justify-between">
+          <h1 class="text-2xl lg:text-4xl text-signIn font-cooperLtBt">
+            Sign In
+          </h1>
+          <div class="font-medium flex items-center justify-center gap-2">
+            <figure class="rounded-xl">
+              <img
+                src="images/Flag_of_the_United_Kingdom.png"
+                alt=""
+                class="w-8 h-6 lg:w-10 lg:h-8 rounded-xl"
+              />
+            </figure>
+            <select id="Language">
+              <option value="volvo">English</option>
+              <option value="saab">Bangla</option>
+              <option value="opel">Arabic</option>
+              <option value="audi">Hindi</option>
+            </select>
+          </div>
+        </div>
+        <p class="hidden lg:block">
+          Register your pet now to help save life in an emergency
+        </p>
+        <p class="lg:hidden">Register your pet now to save life</p>
+        <!-- email section -->
+        <div class="flex flex-col gap-2">
+          <label for="" class="font-medium">Email Address</label>
+          <input
+            type="email"
+            placeholder="Enter  email"
+            class="border-2 border-[#D0D0D0] pl-3 py-4 rounded-md outline-none"
+          />
+        </div>
+        <!-- passwords section -->
+        <div class="flex flex-col gap-2">
+          <div class="flex justify-between">
+            <label for="" class="font-medium">Password</label>
+            <a href="" class="font-medium">Forgot password?</a>
+          </div>
+
+          <div
+            class="border-2 border-[#D0D0D0] pl-3 py-4 rounded-md flex justify-between"
+          >
+            <input
+              type="password"
+              placeholder="Enter  password"
+              class="outline-none"
+            />
+            <a href="#"
+              ><img src="images/eye.png" alt="" class="w-6 h-6 mr-4"
+            /></a>
+          </div>
+        </div>
+        <button class="text-white font-bold bg-mixGreen py-4 rounded-md">
+          Sign In
+        </button>
+        <div class="flex justify-center items-center">
+          <p>
+            Don't have an account?
+            <span
+              ><a href="#" class="text-signIn font-bold underline"
+                >Register</a
+              ></span
+            >
+          </p>
+        </div>
+
+        <!-- better section -->
+        <div class="flex items-center w-full">
+          <div class="ml-4 flex-grow border-t border-[#414143]/50"></div>
+          <span class="mx-4 text-[#414143]/50">or better yet...</span>
+          <div class="flex-grow border-t border-[#414143]/50 mr-4"></div>
+        </div>
+        <!-- google section -->
+        <div class="border-2 border-lightGray pl-3 py-4 rounded-md">
+          <a href="#" class="flex justify-center items-center gap-2">
+            <img src="images/G-google.png" alt="" class="w-8 h-8" />
+            <p class="font-medium">Continue with Google</p>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
